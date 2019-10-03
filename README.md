@@ -29,22 +29,20 @@
 |name|string|null: false|
 |email|string|null: false|
 |password|string|null: false|
-
 ### Association
 has_many :messages
 has_many :groups_users
-belongs_to:group
+has_many :groups, through:  :groups_users
 
 ## groupsテーブル
 |Column|Type|Options|
 |------|----|-------|
 |id|integer|
 |group_name|string|
-
 ### Association
 has_many :messages
 has_many :groups_users
-has_many :user
+has_many :users, through:  :groups_users
 
 
 
