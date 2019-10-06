@@ -129,8 +129,6 @@
                 }
             }
         }
-
-
         .group-chat{
           height: calc(100vh - 190px);
           width: calc(100vw - 300px);
@@ -139,12 +137,10 @@
           .name-date{
             display: flex;
             margin: 0 0 10px;
-
             .group-chat-name{
               font-weight: bold;
               font-size: 16px;
               color: #434A54;
-
             }
             .group-chat-date{
               margin-left:10px;
@@ -157,14 +153,12 @@
             margin-bottom: 10px;
           }
         }
-
         .comment-bottom{
           height: 90px;
           width: 100%;
           padding: 20px 40px;
           display: flex;
           background-color: #ddd;
-
             .chat-box{
               height: 50px;
               width: calc(100vw - 515px);
@@ -179,7 +173,6 @@
                 color:gray;
               }
             }
-
               .icon-bottom{
                 margin: 10px 10px 0 0;
                 &__imgimg{
@@ -192,8 +185,6 @@
                   }
                 }
               }
-
-
           .chat-send{
               height: 50px;
               width: 100px;
