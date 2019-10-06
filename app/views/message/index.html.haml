@@ -1,0 +1,42 @@
+
+.body
+  .left-box
+    .user-box
+      .user-name
+        .p lomo@test
+      .icon-head
+        =link_to "", class: "icon-head__editedit" do
+          = fa_icon'edit'
+        =link_to "", class: "icon-head__cogcog" do
+          = fa_icon'cog'
+    .group-box
+      .ingroup-box
+        .minigroup-box
+          .p group1
+        .chat-preview
+          .p chatmsg
+  .right-box
+    .group-room
+      .left-headbox
+        .left-headname
+          .p group1          
+        .member-box
+          .left-member
+            .p Member:
+          .in-member
+            .p lomo@test
+      .edit-btn
+        .p Edit
+    .group-chat
+      .name-date
+        .group-chat-name LOMO
+        .group-chat-date 1945/08/06(Wed) 08:15:00
+      .p rip
+    .comment-bottom
+      .chat-box
+        .p type a message
+        .icon-bottom
+          =link_to "", class: "icon-bottom__imgimg" do
+            = fa_icon'image'
+      .chat-send
+        .p Send
