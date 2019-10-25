@@ -73,7 +73,7 @@
             .upper-message__date{
               margin-left:10px;
               font-size: 12px;
-              color: #434A54;
+              color: #999;
             }
           }
           .lower-message__content{
@@ -103,7 +103,7 @@
                 height: 50px;
                 width: calc(100vw - 535px);
                 background-color: white;
-                padding: 0px 0 px 0px 10px; 
+                padding: 0 0 0 10px; 
                 display: flex;
                 border: none;
               }
@@ -144,4 +144,7 @@
             }
         }
   }
+}
+h2{
+  color: #000;
 }
